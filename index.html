@@ -3,13 +3,14 @@
 <title>Calculator</title>
 <link href="style.css" type="text/css" rel="stylesheet">
 <link rel="icon" href="postTumb1 (2).jpg">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <head>
 <body>
-<div class="main" >
-<div class="calBody">
-
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12 col-lg-6">
 <form name="form1">
-<input type="text" name="answer" id="answer">
+<input type="text" name="answer" id="answer" style="width:100%;"	>
 <br>
 
 <button value="1" class="btn" type="button" onclick="form1.answer.value+=7">7</button>
@@ -39,7 +40,7 @@
 <button value="1" class="btn" type="button" onclick="form1.answer.value*=form1.answer.value">^</button>
 <button value="1" class="btn" type="button" onclick="form1.answer.value+=1">a</button>
 <button value="1" class="btn" type="button" onclick="form1.answer.value+=1">b</button>
-<button value="1" class="btn" type="button" onclick="form1.answer.value=eval(form1.answer.value)" style="background-color:lime">=</button>
+<button value="1" class="btn" type="button" onclick="form1.answer.value=eval(form1.answer.value)" style="background-color: aqua">=</button>
 <br>
 
 
